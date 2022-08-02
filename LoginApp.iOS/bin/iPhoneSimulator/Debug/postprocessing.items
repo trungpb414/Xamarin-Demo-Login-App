@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="LoginApp.iOS.app/LoginApp.iOS">
+      <BCSymbolMapName>LoginApp.iOS.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>LoginApp.iOS.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>obj/iPhoneSimulator/Debug/mtouch-symbols.list</SymbolFile>
+      <DSymName>LoginApp.iOS.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

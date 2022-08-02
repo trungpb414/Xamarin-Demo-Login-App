@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "oFdtEV/yob6YqOjp2at5tObJtXQY3qz6VPSSkrDgKy7R9jH2geyzJoSbcwqjv42PhxRmaki+siPFl6dtBlfHZQ==",
+  "success": true,
+  "projectFilePath": "/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/LoginApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/it/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/it/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/it/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
