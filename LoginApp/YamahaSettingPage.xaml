@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="LoginApp.YamahaSettingPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+                Text="Settings"
+                TextColor="White"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+                FontSize="Title"
+                FontAttributes="Bold"
+                HeightRequest="80"
+                HorizontalOptions="Fill"
+                BackgroundColor="DarkBlue" />
+            <ScrollView VerticalOptions="FillAndExpand"
+                VerticalScrollBarVisibility="Always"
+                Padding="20,20">
+                <StackLayout>
+                    <Label Text="Account"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="user.png" Aspect="AspectFit"
+       HeightRequest="20"
+       WidthRequest="20"/>
+                        <Label Text="User Profile" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="account_setting.png" Aspect="AspectFit"
+       HeightRequest="20"
+       WidthRequest="20"/>
+                        <Label Text="Account Control" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10"/>
+                    </StackLayout>
+                    <Label Text="Help" Margin="0,20,0,0"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="faqs.png" Aspect="AspectFit"
+       HeightRequest="20"
+       WidthRequest="20"/>
+                        <Label Text="FAQs" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="tutorial.png" Aspect="AspectFit"
+       HeightRequest="20"
+       WidthRequest="20"/>
+                        <Label Text="Tutorial" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="contact.png" Aspect="AspectFit"
+       HeightRequest="20"
+       WidthRequest="20"/>
+                        <Label Text="Contact Us" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="share.png" Aspect="AspectFit"
+       HeightRequest="20"
+       WidthRequest="20"/>
+                        <Label Text="Invite Friends" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="star.png" Aspect="AspectFit"
+                            HeightRequest="20"
+                            WidthRequest="20"/>
+                        <Label Text="App Evaluation" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10"/>
+                    </StackLayout>
+                    <Label Text="Settings" Margin="0,20,0,0"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="light_mode.png" Aspect="AspectFit"
+                            HeightRequest="20"
+                            WidthRequest="20"/>
+                        <Label Text="Light Mode" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10" HorizontalOptions="StartAndExpand"/>
+                        <Switch IsToggled="true"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="language.png" Aspect="AspectFit"
+                            HeightRequest="20"
+                            WidthRequest="20"/>
+                        <Label Text="Language" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10" HorizontalOptions="StartAndExpand"/>
+                        <Picker x:Name="picker"
+                                
+                        Title="-Choose-"
+                        TitleColor="Red">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                            <x:String>English</x:String>
+                            <x:String>Vietnamese</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                    </StackLayout>
+                    <Label Text="Setting"/>
+                </StackLayout>
+
+            </ScrollView>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
+

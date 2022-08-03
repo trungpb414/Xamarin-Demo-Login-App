@@ -12,3 +12,5 @@
 /Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp/obj/Debug/netstandard2.0/LoginApp.dll
 /Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp/obj/Debug/netstandard2.0/ref/LoginApp.dll
 /Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp/obj/Debug/netstandard2.0/LoginApp.pdb
+/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp/obj/Debug/netstandard2.0/LoginApp.csproj.AssemblyReference.cache
+/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp/obj/Debug/netstandard2.0/YamahaSettingPage.xaml.g.cs

@@ -10,7 +10,7 @@ namespace LoginApp
         {
             InitializeComponent();
 
-            MainPage = new LoginPage();
+            MainPage = new YamahaSettingPage();
         }
 
         protected override void OnStart ()

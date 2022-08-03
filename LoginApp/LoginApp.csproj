@@ -32,4 +32,18 @@
   <ItemGroup>
     <Folder Include="ViewModel\" />
   </ItemGroup>
+<!--  <ItemGroup>
+    <Compile Remove="YamahaSettingPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="YamahaSettingPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="YamahaSettingPage.xaml.cs">
+      <DependentUpon>YamahaSettingPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>-->
 </Project>

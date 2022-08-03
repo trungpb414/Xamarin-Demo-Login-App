@@ -628,3 +628,12 @@
 /Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.Android/obj/Debug/res/drawable/account_setting.png
+/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.Android/obj/Debug/res/drawable/contact.png
+/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.Android/obj/Debug/res/drawable/faqs.png
+/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.Android/obj/Debug/res/drawable/language.png
+/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.Android/obj/Debug/res/drawable/light_mode.png
+/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.Android/obj/Debug/res/drawable/share.png
+/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.Android/obj/Debug/res/drawable/star.png
+/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.Android/obj/Debug/res/drawable/tutorial.png
+/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.Android/obj/Debug/res/drawable/user.png
