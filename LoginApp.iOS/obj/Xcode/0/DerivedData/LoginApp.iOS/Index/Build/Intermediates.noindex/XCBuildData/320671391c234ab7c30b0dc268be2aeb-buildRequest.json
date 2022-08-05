@@ -1,0 +1,60 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "d062bb9f475343c766bcb53b473474c7472ee3b2dcc03b593a2d7286a5472d40"
+    }
+  ],
+  "containerPath" : "/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/Xcode/0/LoginApp.iOS.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/Xcode/0/DerivedData/LoginApp.iOS/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/Xcode/0/DerivedData/LoginApp.iOS/Index/Build/Products",
+      "derivedDataPath" : "/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/Xcode/0/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/Xcode/0/DerivedData/LoginApp.iOS/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/Xcode/0/DerivedData/LoginApp.iOS/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/Xcode/0/DerivedData/LoginApp.iOS/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/Xcode/0/DerivedData/LoginApp.iOS/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

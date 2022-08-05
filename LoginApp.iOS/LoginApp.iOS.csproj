@@ -133,4 +133,15 @@
       <Name>LoginApp</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\account_setting.png" />
+    <BundleResource Include="Resources\contact.png" />
+    <BundleResource Include="Resources\language.png" />
+    <BundleResource Include="Resources\light_mode.png" />
+    <BundleResource Include="Resources\share.png" />
+    <BundleResource Include="Resources\star.png" />
+    <BundleResource Include="Resources\tutorial.png" />
+    <BundleResource Include="Resources\user.png" />
+    <BundleResource Include="Resources\faqs.png" />
+  </ItemGroup>
 </Project>

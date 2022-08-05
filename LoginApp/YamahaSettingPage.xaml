@@ -1,99 +1,124 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <ContentPage
-    xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="LoginApp.YamahaSettingPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label
+	<ContentPage.Content>
+		<StackLayout>
+			<Label
                 Text="Settings"
                 TextColor="White"
                 HorizontalTextAlignment="Center"
                 VerticalTextAlignment="Center"
                 FontSize="Title"
                 FontAttributes="Bold"
-                HeightRequest="80"
+                HeightRequest="60"
                 HorizontalOptions="Fill"
-                BackgroundColor="DarkBlue" />
-            <ScrollView VerticalOptions="FillAndExpand"
+                BackgroundColor="#002D74" />
+			<ScrollView VerticalOptions="FillAndExpand"
                 VerticalScrollBarVisibility="Always"
                 Padding="20,20">
-                <StackLayout>
-                    <Label Text="Account"/>
-                    <StackLayout Orientation="Horizontal">
-                        <Image Source="user.png" Aspect="AspectFit"
+				<StackLayout>
+					<Label Text="Account"/>
+					<StackLayout x:Name="userProfile" HorizontalOptions="Start" Orientation="Horizontal">
+						<StackLayout.GestureRecognizers>
+							<TapGestureRecognizer Command="{Binding UserProfileTapCommand}"/>
+						</StackLayout.GestureRecognizers>
+						<Image Source="user.png" Aspect="AspectFit"
        HeightRequest="20"
        WidthRequest="20"/>
-                        <Label Text="User Profile" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10"/>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Image Source="account_setting.png" Aspect="AspectFit"
+						<Label Text="User Profile" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10"/>
+					</StackLayout>
+					<StackLayout x:Name="accountControl" HorizontalOptions="Start" Orientation="Horizontal">
+						<StackLayout.GestureRecognizers>
+							<TapGestureRecognizer Command="{Binding AccountControlTapCommand}"/>
+						</StackLayout.GestureRecognizers>
+						<Image Source="account_setting.png" Aspect="AspectFit"
        HeightRequest="20"
        WidthRequest="20"/>
-                        <Label Text="Account Control" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10"/>
-                    </StackLayout>
-                    <Label Text="Help" Margin="0,20,0,0"/>
-                    <StackLayout Orientation="Horizontal">
-                        <Image Source="faqs.png" Aspect="AspectFit"
+						<Label Text="Account Control" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10"/>
+					</StackLayout>
+					<Label Text="Help" Margin="0,20,0,0"/>
+					<StackLayout x:Name="faqs" HorizontalOptions="Start" Orientation="Horizontal">
+						<StackLayout.GestureRecognizers>
+							<TapGestureRecognizer Command="{Binding FaqsTapCommand}"/>
+						</StackLayout.GestureRecognizers>
+						<Image Source="faqs.png" Aspect="AspectFit"
        HeightRequest="20"
        WidthRequest="20"/>
-                        <Label Text="FAQs" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10"/>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Image Source="tutorial.png" Aspect="AspectFit"
+						<Label Text="FAQs" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10"/>
+					</StackLayout>
+					<StackLayout x:Name="tutorial" HorizontalOptions="Start" Orientation="Horizontal">
+						<StackLayout.GestureRecognizers>
+							<TapGestureRecognizer Command="{Binding TutorialTapCommand}"/>
+						</StackLayout.GestureRecognizers>
+						<Image Source="tutorial.png" Aspect="AspectFit"
        HeightRequest="20"
        WidthRequest="20"/>
-                        <Label Text="Tutorial" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10"/>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Image Source="contact.png" Aspect="AspectFit"
+						<Label Text="Tutorial" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10"/>
+					</StackLayout>
+					<StackLayout x:Name="contact" HorizontalOptions="Start" Orientation="Horizontal">
+						<StackLayout.GestureRecognizers>
+							<TapGestureRecognizer Command="{Binding ContactTapCommand}"/>
+						</StackLayout.GestureRecognizers>
+						<Image Source="contact.png" Aspect="AspectFit"
        HeightRequest="20"
        WidthRequest="20"/>
-                        <Label Text="Contact Us" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10"/>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Image Source="share.png" Aspect="AspectFit"
+						<Label Text="Contact Us" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10"/>
+					</StackLayout>
+					<StackLayout x:Name="share" HorizontalOptions="Start" Orientation="Horizontal">
+						<StackLayout.GestureRecognizers>
+							<TapGestureRecognizer Command="{Binding ShareTapCommand}"/>
+						</StackLayout.GestureRecognizers>
+						<Image Source="share.png" Aspect="AspectFit"
        HeightRequest="20"
        WidthRequest="20"/>
-                        <Label Text="Invite Friends" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10"/>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Image Source="star.png" Aspect="AspectFit"
+						<Label Text="Invite Friends" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10"/>
+					</StackLayout>
+					<StackLayout x:Name="rate" HorizontalOptions="Start" Orientation="Horizontal">
+						<StackLayout.GestureRecognizers>
+							<TapGestureRecognizer Command="{Binding RateTapCommand}"/>
+						</StackLayout.GestureRecognizers>
+						<Image Source="star.png" Aspect="AspectFit"
                             HeightRequest="20"
                             WidthRequest="20"/>
-                        <Label Text="App Evaluation" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10"/>
-                    </StackLayout>
-                    <Label Text="Settings" Margin="0,20,0,0"/>
-                    <StackLayout Orientation="Horizontal">
-                        <Image Source="light_mode.png" Aspect="AspectFit"
+						<Label Text="App Evaluation" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10"/>
+					</StackLayout>
+					<Label Text="Settings" Margin="0,20,0,0"/>
+					<StackLayout Orientation="Horizontal">
+						<Image Source="light_mode.png" Aspect="AspectFit"
                             HeightRequest="20"
                             WidthRequest="20"/>
-                        <Label Text="Light Mode" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10" HorizontalOptions="StartAndExpand"/>
-                        <Switch IsToggled="true"/>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Image Source="language.png" Aspect="AspectFit"
+						<Label Text="Light Mode" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10" HorizontalOptions="StartAndExpand"/>
+						<Switch Toggled="Switch_Toggled"/>
+					</StackLayout>
+					<StackLayout Orientation="Horizontal">
+						<Image Source="language.png" Aspect="AspectFit"
                             HeightRequest="20"
                             WidthRequest="20"/>
-                        <Label Text="Language" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10" HorizontalOptions="StartAndExpand"/>
-                        <Picker x:Name="picker"
-                                
+						<Label Text="Language" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" Padding="10" HorizontalOptions="StartAndExpand"/>
+						<Picker x:Name="picker"   
                         Title="-Choose-"
                         TitleColor="Red">
-                        <Picker.ItemsSource>
-                            <x:Array Type="{x:Type x:String}">
-                            <x:String>English</x:String>
-                            <x:String>Vietnamese</x:String>
-                            </x:Array>
-                        </Picker.ItemsSource>
-                    </Picker>
-                    </StackLayout>
-                    <Label Text="Setting"/>
-                </StackLayout>
-
-            </ScrollView>
-        </StackLayout>
-
-    </ContentPage.Content>
+							<Picker.ItemsSource>
+								<x:Array Type="{x:Type x:String}">
+									<x:String>English</x:String>
+									<x:String>Vietnamese</x:String>
+								</x:Array>
+							</Picker.ItemsSource>
+						</Picker>
+					</StackLayout>
+					<StackLayout Orientation="Horizontal">
+						<StackLayout Orientation="Vertical" Padding="30,0,0,0">
+							<Label Text="App Log Collection" FontSize="Medium" TextColor="Black"/>
+							<Label Text="some dump duplicate text some dump duplicate text some dump duplicate text some dump duplicate text some dump duplicate text"
+								   TextColor="Black" />
+						</StackLayout>
+						<Switch VerticalOptions="Start" Toggled="Switch_Toggled_1"/>
+					</StackLayout>
+				</StackLayout>
+			</ScrollView>
+		</StackLayout>
+	</ContentPage.Content>
 </ContentPage>
 

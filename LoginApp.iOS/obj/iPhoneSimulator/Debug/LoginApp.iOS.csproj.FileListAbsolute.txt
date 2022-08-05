@@ -61,3 +61,12 @@
 /Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/LoginApp.iOS.csproj.CopyComplete
 /Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/LoginApp.iOS.exe
 /Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/LoginApp.iOS.pdb
+/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/optimized/account_setting.png
+/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/optimized/contact.png
+/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/optimized/language.png
+/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/optimized/light_mode.png
+/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/optimized/share.png
+/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/optimized/star.png
+/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/optimized/tutorial.png
+/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/optimized/user.png
+/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/optimized/faqs.png

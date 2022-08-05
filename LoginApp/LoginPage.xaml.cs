@@ -7,12 +7,10 @@ namespace LoginApp
 {
     public partial class LoginPage : ContentPage
     {
-        LoginPageViewModel loginVM;
         public LoginPage()
         {
             InitializeComponent();
-            loginVM = new LoginPageViewModel();
-            BindingContext = loginVM;
+            BindingContext = new LoginPageViewModel();
         }
     }
 }
