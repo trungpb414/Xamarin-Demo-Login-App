@@ -70,3 +70,4 @@
 /Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/optimized/tutorial.png
 /Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/optimized/user.png
 /Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/optimized/faqs.png
+/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/optimized/down_arrow.png

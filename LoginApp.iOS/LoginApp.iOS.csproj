@@ -68,6 +68,7 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CustomPickerRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -143,5 +144,6 @@
     <BundleResource Include="Resources\tutorial.png" />
     <BundleResource Include="Resources\user.png" />
     <BundleResource Include="Resources\faqs.png" />
+    <BundleResource Include="Resources\down_arrow.png" />
   </ItemGroup>
 </Project>

@@ -66,6 +66,65 @@ Function=xamarin_log
 	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_get_locale_country_code
 	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetDomainSocketSizes
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.Core.dll
+Function=NetSecurityNative_ReleaseGssBuffer
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMinorStatus
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMajorStatus
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportUserName
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportPrincipalName
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseName
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredSpNego
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredWithPassword
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseCred
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContext
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContextEx
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_AcceptSecContext
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DeleteSecContext
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_GetUser
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_Wrap
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_Unwrap
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=xamarin_start_wwan
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=BrotliDecoderCreateInstance
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderDecompressStream
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderDecompress
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderDestroyInstance
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderIsFinished
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderCreateInstance
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderSetParameter
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderCompressStream
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderHasMoreOutput
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderDestroyInstance
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderCompress
+	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
 Function=xamarin_CGPoint__VNNormalizedFaceBoundingBoxPointForLandmarkPoint_Vector2_CGRect_nuint_nuint_string
 	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_CGPoint__VNImagePointForFaceLandmarkPoint_Vector2_CGRect_nuint_nuint_string
@@ -106,9 +165,6 @@ Function=xamarin_release_block_on_main_thread
 	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_get_original_working_directory_path
 	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
-Function=xamarin_start_wwan
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
 Function=xamarin_get_block_descriptor
 	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_simd__NMatrix4_objc_msgSend
@@ -951,62 +1007,6 @@ Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Matrix4
 	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Matrix4
 	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
-Function=NetSecurityNative_ReleaseGssBuffer
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_DisplayMinorStatus
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_DisplayMajorStatus
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_ImportUserName
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_ImportPrincipalName
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_ReleaseName
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_InitiateCredSpNego
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_InitiateCredWithPassword
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_ReleaseCred
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_InitSecContext
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_InitSecContextEx
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_AcceptSecContext
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_DeleteSecContext
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_GetUser
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_Wrap
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_Unwrap
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=SystemNative_GetDomainSocketSizes
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.Core.dll
-Function=BrotliDecoderCreateInstance
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliDecoderDecompressStream
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliDecoderDecompress
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliDecoderDestroyInstance
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliDecoderIsFinished
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliEncoderCreateInstance
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliEncoderSetParameter
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliEncoderCompressStream
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliEncoderHasMoreOutput
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliEncoderDestroyInstance
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliEncoderCompress
-	/Users/it/Documents/Xamarin/LoginApp/LoginApp/LoginApp.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
 Function=mono_pmip
 Function=xamarin_dyn_objc_msgSend
 Function=xamarin_dyn_objc_msgSendSuper
